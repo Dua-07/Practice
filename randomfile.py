@@ -10,3 +10,10 @@ plt.xlabel("Cites")
 plt.ylabel("Students")
 plt.title("Number of Students per city")
 plt.show()
+
+
+plt.bar(number.index, number.values, color = "purple")
+plt.xlabel("Cites")
+plt.ylabel("Students")
+plt.title("Number of Students per city")
+plt.show()
